@@ -1,0 +1,77 @@
+body{
+    background-image: url("Iman/lorax.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-style: italic;
+   font-size:20px;
+   color: black;
+   padding-right: 40px;
+   
+   
+   } 
+
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 50%;
+}
+
+nav ul{
+    list-style:none ;
+    float:left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: rgb(128, 0, 79);
+
+}
+a{
+
+    color:rgb(128, 0, 79);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-style: italic;
+     font-size: 18px;   
+     font-weight: bold;
+     text-align: center;
+     margin-left: 11%;
+
+
+
+}
+ a:hover{
+    background-color:rgba(255, 192, 203, 0.938);
+     cursor: pointer; 
+
+}
+
+
+.column{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 60px;
+    font-size: 24px; 
+    font-style: initial;
+
+}
+#image{
+    padding-bottom: 10%;
+    
+}
+#image1{
+    padding-bottom: 48%;
+
+}
+#image2{
+    padding-bottom: 18%;
+   
+}
+#image3{
+    padding-bottom: 42%; 
+
+}
