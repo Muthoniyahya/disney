@@ -1,14 +1,9 @@
 body{
-    background-image: url("Iman/lorax.jpeg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   font-style: italic;
-   font-size:20px;
-   color: black;
-   padding-right: 40px;
-   
-   
-   } 
+    font-style: initial;
+    font-size:10px;
+    padding-right: 40px;
+    background-color: #CF3D76;  
+ } 
 
 nav{
     position: fixed;
@@ -28,14 +23,15 @@ nav ul{
     display: flex;
     color: rgb(128, 0, 79);
 
+
 }
 a{
 
-    color:rgb(128, 0, 79);
+    color:rgb(128, 0, 79);;
      text-decoration: none;
      text-transform: uppercase;
-     font-style: italic;
-     font-size: 18px;   
+     font-style: normal;
+     font-size: 20px;   
      font-weight: bold;
      text-align: center;
      margin-left: 11%;
@@ -53,25 +49,25 @@ a{
 .column{
     display: flex;
     align-items: center;
-    font-size: 20px;
-    padding: 60px;
-    font-size: 24px; 
-    font-style: initial;
+    font-size: 15px;
+    padding: 60px; 
+    font-style: normal;
+    color: #CF3D76;
 
-}
-#image{
-    padding-bottom: 10%;
-    
-}
-#image1{
-    padding-bottom: 48%;
-
-}
-#image2{
-    padding-bottom: 18%;
    
-}
-#image3{
-    padding-bottom: 42%; 
 
+}
+.card-group{
+    padding-top: 5%;
+}
+.card-body{
+    padding-top: 5%;
+}
+#head{
+    padding-left: 2%;
+    color:#CF3D76;
+    font-size: 26px;
+}
+.card-text{
+    color: #CF3D76;
 }

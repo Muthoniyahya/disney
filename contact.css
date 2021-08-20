@@ -1,5 +1,5 @@
 body{
-    background-image: url("Iman/pink\ fairy.jpeg");      
+    background-image: url("Iman/pink\ fairy.jpeg");   
     background-repeat: no-repeat;
     background-size: cover;
     font-style: italic;
@@ -52,7 +52,7 @@ a{
 .column{
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 13px;
     font-style: normal;
     padding: 60px;
     font-size: 30px; 

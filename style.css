@@ -1,8 +1,8 @@
 body{
-    background-image: url("Iman/Mickey\ and\ Minnie\ ❤️.png");      
+    background-image: url("Iman/Zootopia.jpeg");         
    background-repeat: no-repeat;
    background-size: cover;
-   font-style: italic;
+   font-style: normal;
    font-size: 19px;
    color: rgb(128, 0, 79);
    padding-right: 40px;
@@ -53,13 +53,10 @@ body{
    .column{
        display: flex;
        align-items: center;
-       font-size: 18px;
+       font-size: 13px;
        font-style: normal;
        padding: 60px;
        font-size: 30px; 
    
    
    }
-   /* #image{
-    padding-top: 80px;
-} */
