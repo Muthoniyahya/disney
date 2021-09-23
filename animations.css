@@ -1,11 +1,11 @@
 body{
-    font-style: initial;
+    font-style: italic;
     font-size:10px;
     padding-right: 40px;
     background-color: grey;
  } 
 
-nav{
+.navbars{
     position: fixed;
     top: 0;
     left:0;
@@ -13,28 +13,31 @@ nav{
     height: 100px;
     box-sizing: border-box;
     padding-left: 50%;
+    
 }
 
-nav ul{
+.navbars nav ul{
     list-style:none ;
     float:left;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     display: flex;
     color: rgb(128, 0, 79);
+  
 
 
 }
-a{
+.navbars nav ul a{
 
-    color:rgb(128, 0, 79);;
+    color:rgb(128, 0, 79);
      text-decoration: none;
      text-transform: uppercase;
      font-style: normal;
-     font-size: 20px;   
-     font-weight: bold;
+     font-size: 18px;   
      text-align: center;
+     font-weight: bold;
      margin-left: 11%;
+     font-style: normal;
 
 
 
@@ -65,12 +68,12 @@ a{
     padding-top: 5%;
     width: 40%;
 }
-#head{
+ #head{
     padding-left: 2%;
     color:#CF3D76;
     font-size: 26px;
     
-}
+} 
 .card-text{
     color: #CF3D76;
     font-weight: bold;
